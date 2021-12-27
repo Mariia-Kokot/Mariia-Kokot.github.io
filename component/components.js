@@ -76,15 +76,15 @@ class WorkComponent extends HTMLElement {
       company = this.getAttribute("company"),
       begin = this.getAttribute("begin")
     let end = this.getAttribute("end")
-    end = (end == null) ? `<span class="w3-tag w3-teal w3-round">`+this.today(this.getAttribute("lang"))+`</span>` : end
+    end = (end == null) ? `<span class="w3-tag w3-teal w3-round">` + this.today() + `</span>` : end
     this.shadow.querySelector("#work-job").innerHTML = job + " / " + company
     this.shadow.querySelector("#job-date").innerHTML = begin + " / " + end
   }
 
-  today(lang) {
-    if (lang === "fr") {
+  today() {
+    if (document.documentElement.lang === "fr") {
       return "Aujourd'hui"
-    } else if (lang === "ru") {
+    } else if (document.documentElement.lang === "ru") {
       return "Сегодня"
     }
     return "Today"

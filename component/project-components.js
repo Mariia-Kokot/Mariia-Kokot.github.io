@@ -69,7 +69,17 @@ class ProjectItemComponent extends HTMLElement {
            <i class="fa fa-arrow-right fa-fw w3-large w3-text-teal"></i>
            <img src="img/flags/` + to + `.png" alt="lang-to"/>`
     }
-    this.shadow.querySelector("#resource").innerHTML = `<a href="`+this.getAttribute("original")+`" target="_blank">original</a>`
+
+    this.shadow.querySelector("#resource").innerHTML = `<a href="`+this.getAttribute("original")+`" target="_blank">`+ this.seeOriginal() +`</a>`
+  }
+
+  seeOriginal() {
+    if (document.documentElement.lang === "fr") {
+      return "Voir l'article' original"
+    } else if (document.documentElement.lang === "ru") {
+      return "Посмотреть исходную статью"
+    }
+    return "See the original article"
   }
 
   addEvent() {
