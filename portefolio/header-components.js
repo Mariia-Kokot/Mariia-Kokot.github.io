@@ -30,12 +30,12 @@ class HeaderComponent extends HTMLElement {
                 </style>
                 <header class="w3-container w3-teal w3-center w3-margin-bottom">
                   <div class="w3-display-container">
-                    <div class="w3-display-left">
-                      <div onclick="toggleDark();
-                                    this.classList.toggle('w3-text-white'); 
-                                    this.classList.toggle('w3-text-black');" 
-                           class="w3-display-left darker fa fa-lightbulb-o fa-fw w3-text-black"></div>
-                    </div>
+<!--                    <div class="w3-display-left">-->
+<!--                      <div onclick="toggleDark();-->
+<!--                                    this.classList.toggle('w3-text-white'); -->
+<!--                                    this.classList.toggle('w3-text-black');" -->
+<!--                           class="w3-display-left darker fa fa-lightbulb-o fa-fw w3-text-black"></div>-->
+<!--                    </div>-->
                     <div class="w3-display-right">
                       <img class="w3-margin-right" src="./lang/img/flags/FR.png" alt="fr" onclick="loadLang('fr')"/>
                       <img class="w3-margin-right" src="./lang/img/flags/RU.png" alt="ru" onclick="loadLang('ru')"/>
