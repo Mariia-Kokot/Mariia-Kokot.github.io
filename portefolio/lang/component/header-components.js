@@ -30,9 +30,9 @@ class HeaderComponent extends HTMLElement {
                            class="w3-display-left darker fa fa-lightbulb-o fa-fw w3-text-black"></div>
                     </div>
                     <div class="w3-display-right">
-                      <a class="w3-margin-right" href="index.html"><img src="../img/flags/FR.png" alt="fr"/></a>
-                      <a class="w3-margin-right" href="indexRussian.html"><img src="../img/flags/RU.png" alt="ru"/></a>
-                      <a class="w3-margin-right" href="indexEnglish.html"><img src="../img/flags/GB.png" alt="en"/></a>
+                      <a class="w3-margin-right" href="index.html"><img src="./img/flags/FR.png" alt="fr"/></a>
+                      <a class="w3-margin-right" href="indexRussian.html"><img src="./img/flags/RU.png" alt="ru"/></a>
+                      <a class="w3-margin-right" href="indexEnglish.html"><img src="./img/flags/GB.png" alt="en"/></a>
                     </div>
                     <p style="height: 20px"></p>
                   </div>

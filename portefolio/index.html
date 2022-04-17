@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portefolio Mariia Kokot</title>
+</head>
+<body style="margin:0;padding:0;overflow:hidden;">
+<div id="main"></div>
+</body>
+<script>
+    if (/^fr\b/.test(navigator.language)) {
+        document.getElementById('main').innerHTML = '<object style="height: 100vh; width: 100%" data="lang/fr.html" >'
+    } else if  (/^ru\b/.test(navigator.language)) {
+        document.getElementById('main').innerHTML = '<object style="height: 100vh; width: 100%" data="lang/ru.html" >'
+    } else {
+        document.getElementById('main').innerHTML = '<object style="height: 100vh; width: 100%" data="lang/en.html" >'
+    }
+</script>
+</html>
