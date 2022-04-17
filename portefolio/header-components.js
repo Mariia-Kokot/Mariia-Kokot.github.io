@@ -8,6 +8,13 @@ class HeaderComponent extends HTMLElement {
                 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                 <style>
+                  img {
+                    transition: 0.5s;
+                  }
+                  img:hover {
+                    opacity: 0.75;
+                    cursor: pointer;
+                  }
                   .darker {
                     border-radius: 5px;
                     padding: 5px;
@@ -30,9 +37,9 @@ class HeaderComponent extends HTMLElement {
                            class="w3-display-left darker fa fa-lightbulb-o fa-fw w3-text-black"></div>
                     </div>
                     <div class="w3-display-right">
-                      <a class="w3-margin-right" href="index.html"><img src="./img/flags/FR.png" alt="fr"/></a>
-                      <a class="w3-margin-right" href="indexRussian.html"><img src="./img/flags/RU.png" alt="ru"/></a>
-                      <a class="w3-margin-right" href="indexEnglish.html"><img src="./img/flags/GB.png" alt="en"/></a>
+                      <img class="w3-margin-right" src="./lang/img/flags/FR.png" alt="fr" onclick="loadLang('fr')"/>
+                      <img class="w3-margin-right" src="./lang/img/flags/RU.png" alt="ru" onclick="loadLang('ru')"/>
+                      <img class="w3-margin-right" src="./lang/img/flags/GB.png" alt="en" onclick="loadLang('en')"/>
                     </div>
                     <p style="height: 20px"></p>
                   </div>

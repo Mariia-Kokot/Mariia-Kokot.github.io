@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Portefolio Mariia Kokot</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="./lang/component/components.js"></script>
+    <script src="./lang/component/personal-components.js"></script>
+    <script src="./lang/component/project-components.js"></script>
+    <script src="header-components.js"></script>
+    <script src="app.js"></script>
 </head>
-<body style="margin:0;padding:0;overflow:hidden;">
+<body class="w3-light-grey" style="margin:0;padding:0;overflow:hidden;">
+<header-component></header-component>
 <div id="main"></div>
 </body>
 <script>
     if (/^fr\b/.test(navigator.language)) {
-        document.getElementById('main').innerHTML = '<object style="height: 100vh; width: 100%" data="lang/fr.html" >'
-    } else if  (/^ru\b/.test(navigator.language)) {
-        document.getElementById('main').innerHTML = '<object style="height: 100vh; width: 100%" data="lang/ru.html" >'
+        loadLang("fr")
+    } else if (/^ru\b/.test(navigator.language)) {
+        loadLang("ru")
     } else {
-        document.getElementById('main').innerHTML = '<object style="height: 100vh; width: 100%" data="lang/en.html" >'
+        loadLang("en")
     }
 </script>
 </html>
