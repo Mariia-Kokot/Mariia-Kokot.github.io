@@ -4,9 +4,10 @@ class LanguageComponent extends HTMLElement {
       lang = this.getAttribute("lang"),
       percent = this.getAttribute('percent')
     this.innerHTML = `<p><img src="../img/flags/` + img + `.png" style="width:30px" alt="Avatar"> ` + lang + `</p>
-                    <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-light-grey w3-round-xlarge" style="background-color: rgba(0,150,136,0.15)!important;" >
                       <div class="w3-round-xlarge w3-teal" style="height:24px;width:` + percent + `%">
                         <div class="w3-center w3-text-white">` + percent + `%</div>
+                      </div>
                       </div>
                     </div>`
   }
@@ -17,7 +18,7 @@ class ITSkillComponent extends HTMLElement {
     const tech = this.getAttribute("tech"),
       percent = this.getAttribute('percent')
     this.innerHTML = `<p>` + tech + `</p>
-                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                    <div class="w3-light-grey w3-round-xlarge w3-small" style="background-color: rgba(0,150,136,0.15)!important;">
                       <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:` + percent + `%">` + percent + `%</div>
                     </div>`
   }

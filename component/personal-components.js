@@ -30,34 +30,10 @@ class PersonalPictureComponent extends HTMLElement {
   connectedCallback() {
     const src = this.getAttribute("src"),
       name = this.getAttribute("name")
-    this.innerHTML = `<style>
-          #user-picture {
-            transition: 0.5s;
-            filter: blur(5px);
-          }
-          #user-picture:hover {
-            filter: blur(0);
-          }
-          .darker {
-            transition: 0.5s;
-            border-radius: 5000px;
-            font-size: 35px;
-            padding: 10px;
-            margin: 5px;
-            cursor: pointer;
-            width: 55px;
-            height: 55px;
-          }
-          .darker:hover {
-            background-color: white;
-          }
-        </style>
-        <div class="w3-display-container">
-          <img class="w3-padding" id="user-picture" src="` + src + `" style="width:100%;opacity: 0.7;" alt="Avatar">
-          <div onclick="toggleDark()" class="w3-display-topleft w3-container darker fa fa-sun-o fa-fw w3-margin-right w3-text-black">
-          </div>
-          <div class="w3-display-bottomright w3-container w3-text-black">
-            <h2 style="font-weight:bold; font-size:35px">` + name + `</h2>
+    this.innerHTML = `
+          <img id="user-picture" src="` + src + `" style="width:100%;opacity:0.7;padding:7px;background-color:rgba(0,150,136,0.15)" alt="Avatar">
+          <div class="w3-right w3-text-teal">
+            <h2 style="font-weight:bold; font-size:35px; padding-right: 10px">` + name + `</h2>
           </div>
         </div>`
   }
