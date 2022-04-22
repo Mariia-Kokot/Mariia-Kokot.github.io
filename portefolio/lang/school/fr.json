@@ -1,0 +1,23 @@
+{
+  "name": "Formations",
+  "values": [
+    {
+      "name": "Master Bilangue-Biculture (Traduction anglais russe)",
+      "school": "Université de Lorraine",
+      "begin": "2020",
+      "end": null
+    },
+    {
+      "name": "Master étude slaves (russe)",
+      "school": "Université de Lorraine",
+      "begin": "2018",
+      "end": "2020"
+    },
+    {
+      "name": "Bachelor Traduction d’anglais (équvalent Bac +3)",
+      "school": "Université Nationale Agraire (Ukraine)",
+      "begin": "2013",
+      "end": "2017"
+    }
+  ]
+}

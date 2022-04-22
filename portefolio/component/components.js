@@ -13,17 +13,6 @@ class LanguageComponent extends HTMLElement {
   }
 }
 
-class ITSkillComponent extends HTMLElement {
-  connectedCallback() {
-    const tech = this.getAttribute("tech"),
-      percent = this.getAttribute('percent')
-    this.innerHTML = `<p>` + tech + `</p>
-                    <div class="w3-light-grey w3-round-xlarge w3-small" style="background-color: rgba(0,150,136,0.15)!important;">
-                      <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:` + percent + `%">` + percent + `%</div>
-                    </div>`
-  }
-}
-
 class SocialSkillComponent extends HTMLElement {
   connectedCallback() {
     const name = this.getAttribute("name")
@@ -83,9 +72,9 @@ class WorkComponent extends HTMLElement {
   }
 
   today() {
-    if (document.documentElement.lang === "fr") {
+    if (getCookie("lang") === "fr") {
       return "Aujourd'hui"
-    } else if (document.documentElement.lang === "ru") {
+    } else if (getCookie("lang") === "ru") {
       return "Сегодня"
     }
     return "Today"
@@ -93,7 +82,6 @@ class WorkComponent extends HTMLElement {
 }
 
 customElements.define('language-skill', LanguageComponent);
-customElements.define('it-skill', ITSkillComponent);
 customElements.define('social-skill', SocialSkillComponent);
 customElements.define('work-item', WorkComponent);
 customElements.define('skill-title', TitleSkillComponent);

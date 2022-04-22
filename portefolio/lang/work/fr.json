@@ -1,0 +1,73 @@
+{
+  "name": "Experience professionnel",
+  "values": [
+    {
+      "name": "Tutrice de russe",
+      "work": "Université de Lorraine",
+      "begin": "Sept 2021",
+      "end": null,
+      "activity" : [
+        "Enseignement du russe (écrit et oral)"
+      ]
+    },
+    {
+      "name": "Traductrice technique",
+      "work": "Datascope",
+      "begin": "Sept 2021",
+      "end": "Oct. 2021",
+      "activity" : [
+        "Traduction d’une application dans le domaine de l’IA"
+      ]
+    },
+    {
+      "name": "Chargée d’accueil",
+      "work": "Université de Lorraine",
+      "begin": "Sept 2021",
+      "end": "Sept 2021",
+      "activity" : [
+        "Présentation d’un atelier d’information",
+        "Visite du campus",
+        "Orientation des étudiants"
+      ]
+    },
+    {
+      "name": "Professeur bénévole chez les moins de 6 ans",
+      "work": "Novis Education & co.",
+      "begin": "Oct. 2020",
+      "end": "Dec. 2020",
+      "activity" : [
+        "Initiation à la culture et la langue russe dans une école primaire",
+        "Apprentissage des mots basiques à travers les jeux et les chansons russes",
+        "Présentation de la culture russe via diaporama"
+      ]
+    },
+    {
+      "name": "Cours particuliers du russe et d’anglais",
+      "work": "Indépendant",
+      "begin": "Sept. 2013",
+      "end": "Juil. 2018",
+      "activity" : [
+        "Expression orale et écrite (Phonétique et Grammaire)"
+      ]
+    },
+    {
+      "name": "Stage assistant à l’enseignement",
+      "work": "Collège de Nechyi Levitskyi",
+      "begin": "Juin 2016",
+      "end": "Août 2016",
+      "activity" : [
+        "Enseignement de l’anglais (tutoré)",
+        "Traduction de textes littéraires de l’ukrainien vers l’anglais"
+      ]
+    },
+    {
+      "name": "Stage Traducteur technique",
+      "work": "Université Nationale Agraire (Ukraine)",
+      "begin": "Juin 2014",
+      "end": "Juil. 2014",
+      "activity" : [
+        "Traduction de textes techniques de l’anglais vers l’ukrainien"
+      ]
+    }
+  ]
+}

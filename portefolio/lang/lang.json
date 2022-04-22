@@ -1,0 +1,63 @@
+{
+  "lang" : {
+    "fr": "Languages",
+    "en": "Languages",
+    "ru": "Языки"
+  },
+  "value": [
+    {
+      "key": "RU",
+      "percent": 100,
+      "lang": {
+        "fr": "Russe",
+        "en": "Russian",
+        "ru": "русский"
+      }
+    },
+    {
+      "key": "FR",
+      "percent": 90,
+      "lang": {
+        "fr": "Français",
+        "en": "French",
+        "ru": "Французский"
+      }
+    },
+    {
+      "key": "GB",
+      "percent": 85,
+      "lang": {
+        "fr": "Anglais",
+        "en": "English",
+        "ru": "английский"
+      }
+    },
+    {
+      "key": "UA",
+      "percent": 100,
+      "lang": {
+        "fr": "Ukrainien",
+        "en": "Ukrainian",
+        "ru": "украинец"
+      }
+    },
+    {
+      "key": "IT",
+      "percent": 25,
+      "lang": {
+        "fr": "Italien",
+        "en": "Italian",
+        "ru": "Итальянский"
+      }
+    },
+    {
+      "key": "CZ",
+      "percent": 15,
+      "lang": {
+        "fr": "Tchèque",
+        "en": "Czech",
+        "ru": "чешский язык"
+      }
+    }
+  ]
+}

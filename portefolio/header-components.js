@@ -13,6 +13,8 @@ class HeaderComponent extends HTMLElement {
                     opacity: 1;
                   }
                   .flag {
+                    display: list-item;
+                    list-style: none;
                     transition: 0.5s;
                   }
                   .flag:hover {
@@ -34,19 +36,19 @@ class HeaderComponent extends HTMLElement {
                 </style>
                 <header class="w3-container w3-teal w3-center w3-margin-bottom">
                   <div class="w3-display-container">
-<!--                    <div class="w3-display-left">-->
-<!--                      <div onclick="toggleDark();-->
-<!--                                    this.classList.toggle('w3-text-white'); -->
-<!--                                    this.classList.toggle('w3-text-black');" -->
-<!--                           class="w3-display-left darker fa fa-lightbulb-o fa-fw w3-text-black"></div>-->
-<!--                    </div>-->
                     <div class="w3-display-left">
                       <img src="img/Mariia_Logo.png" height="50" class="logo w3-display-left"/>
                     </div>
                     <div class="w3-display-right">
-                      <img class="flag w3-margin-right" src="img/flags/FR.png" alt="fr" onclick="loadLang('fr')"/>
-                      <img class="flag w3-margin-right" src="img/flags/RU.png" alt="ru" onclick="loadLang('ru')"/>
-                      <img class="flag w3-margin-right" src="img/flags/GB.png" alt="en" onclick="loadLang('en')"/>
+                      <div class="w3-dropdown-hover">
+                        <button class="w3-btn w3-teal"><img src="img/translate.png" height="30"></button>
+                        <div class="w3-dropdown-content w3-border w3-bar-block" style="right: 0">
+                          <a class="flag" onclick="loadLang('en')"><img src="img/flags/GB.png" alt="fr"/>English</a>
+                          <a class="flag" onclick="loadLang('ru')"><img src="img/flags/RU.png" alt="fr"/>Russian</a>
+                          <a class="flag" onclick="loadLang('fr')"><img src="img/flags/FR.png" alt="fr" />French</a>
+                        </div>
+                      </div>
+                      
                     </div>
                     <p style="height: 20px"></p>
                   </div>

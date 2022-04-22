@@ -1,0 +1,73 @@
+{
+  "name": "Профессиональный опыт",
+  "values": [
+    {
+      "name": "Russian tutor",
+      "work": "Université de Lorraine",
+      "begin": "Sept 2021",
+      "end": null,
+      "activity" : [
+        "Teaching Russian (written and oral)"
+      ]
+    },
+    {
+      "name": "Technical translator",
+      "work": "Datascope",
+      "begin": "Sept 2021",
+      "end": "Oct. 2021",
+      "activity" : [
+        "Translation of an application in the field of AI"
+      ]
+    },
+    {
+      "name": "Receptionist",
+      "work": "Université de Lorraine",
+      "begin": "Sept 2021",
+      "end": "Sept 2021",
+      "activity" : [
+        "Information workshop",
+        "Campus tour",
+        "Orientation of students"
+      ]
+    },
+    {
+      "name": "Volunteer teacher for children under 6",
+      "work": "Novis Education & co.",
+      "begin": "Oct. 2020",
+      "end": "Dec. 2020",
+      "activity" : [
+        "Introduction to Russian culture and language in a primary school",
+        "Learning basic words through games and Russian songs",
+        "Presentation of Russian culture using slideshow"
+      ]
+    },
+    {
+      "name": "Private lessons of Russian and English",
+      "work": "Independent",
+      "begin": "Sept. 2013",
+      "end": "Juil. 2018",
+      "activity" : [
+        "Oral and written expression (phonetics and grammar)"
+      ]
+    },
+    {
+      "name": "Teaching assistant internship",
+      "work": "Nechyi Levitskyi college",
+      "begin": "Jun. 2016",
+      "end": "Aug. 2016",
+      "activity" : [
+        "Teaching English (tutored)",
+        "Translation of literary texts from Ukrainian into English"
+      ]
+    },
+    {
+      "name": "Technical translator internship",
+      "work": "National Agrarian University (Ukraine)",
+      "begin": "Jun. 2014",
+      "end": "Jul. 2014",
+      "activity" : [
+        "Translation of technical texts from English into Ukrainian"
+      ]
+    }
+  ]
+}
