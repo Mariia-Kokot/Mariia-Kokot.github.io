@@ -65,9 +65,9 @@ class ProjectItemComponent extends HTMLElement {
     this.shadow.querySelector("#project-title").innerHTML = this.getAttribute("project-title")
     if (from != null && to != null) {
       this.shadow.querySelector("#language-from-to").innerHTML = `
-           <img src="./lang/img/flags/` + from + `.png" alt="lang-from"/>
+           <img src="./i18n/img/flags/` + from + `.png" alt="lang-from"/>
            <i class="fa fa-arrow-right fa-fw w3-large w3-text-teal"></i>
-           <img src="./lang/img/flags/` + to + `.png" alt="lang-to"/>`
+           <img src="./i18n/img/flags/` + to + `.png" alt="lang-to"/>`
     }
 
     this.shadow.querySelector("#resource").innerHTML = `<a href="`+this.getAttribute("original")+`" target="_blank">`+ this.seeOriginal() +`</a>`

@@ -42,17 +42,22 @@ class HeaderComponent extends HTMLElement {
                     <div class="w3-display-right">
                       <div class="w3-dropdown-hover">
                         <button class="w3-btn w3-teal"><img src="img/translate.png" height="30"></button>
-                        <div class="w3-dropdown-content w3-border w3-bar-block" style="right: 0">
-                          <a class="flag" onclick="loadLang('en')"><img src="img/flags/GB.png" alt="fr"/>English</a>
-                          <a class="flag" onclick="loadLang('ru')"><img src="img/flags/RU.png" alt="fr"/>Russian</a>
-                          <a class="flag" onclick="loadLang('fr')"><img src="img/flags/FR.png" alt="fr" />French</a>
-                        </div>
+                        <div id="language-chooser" class="w3-dropdown-content w3-border w3-bar-block" style="right: 0"></div>
                       </div>
                       
                     </div>
                     <p style="height: 20px"></p>
                   </div>
                 </header>`
+    }
+
+    connectedCallback() {
+        fetch('./parameter/i18n.json')
+            .then(res => res.json())
+            .then(res => {
+                let languages = this.shadow.querySelector("#language-chooser")
+                res.forEach(lgn => languages.innerHTML += `<a class="flag" onclick="loadLang('` + lgn.key + `')"><img src="` + lgn.flag + `" alt="` + lgn.key + `"/>` + lgn.language + `</a>`)
+            })
     }
 }
 

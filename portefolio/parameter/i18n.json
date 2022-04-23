@@ -1,0 +1,17 @@
+[
+  {
+    "key" : "en",
+    "language" : "English",
+    "flag" : "img/flags/GB.png"
+  },
+  {
+    "key" : "fr",
+    "language" : "Français",
+    "flag" : "img/flags/FR.png"
+  },
+  {
+    "key" : "ru",
+    "language" : "Русски",
+    "flag" : "img/flags/RU.png"
+  }
+]
