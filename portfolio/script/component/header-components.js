@@ -37,7 +37,7 @@ class HeaderComponent extends HTMLElement {
                 <header class="w3-container w3-teal w3-center w3-margin-bottom">
                   <div class="w3-display-container">
                     <div class="w3-display-left">
-                      <img src="img/Mariia_Logo.png" height="50" alt="logo" class="logo w3-display-left"/>
+                      <a href="../"><img src="../resources/Mariia_Logo.png" height="50" alt="logo" class="logo w3-display-left"/></a>
                     </div>
                     <div class="w3-display-right" style="right: 110px">
                       <div onclick="toggleDark();" class="w3-display-left darker fa fa-lightbulb-o fa-fw w3-text-black"></div>
@@ -48,7 +48,7 @@ class HeaderComponent extends HTMLElement {
                         <div id="language-chooser" class="w3-dropdown-content w3-border w3-bar-block" style="right: 0"></div>
                       </div>  
                     </div>
-                    <p style="height: 20px"></p>
+                    <p style="height: 25px"></p>
                   </div>
                 </header>`
     }

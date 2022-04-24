@@ -8,7 +8,7 @@ function fetchPersonalData(lang) {
         .then(res => res.json())
         .then(res => {
             let picture = document.querySelector('#personal-picture');
-            picture.innerHTML = `<personal-picture src="./img/profile.png" name="` + res.name + `"></personal-picture>`
+            picture.innerHTML = `<personal-picture src="../resources/profile.png" name="` + res.name + `"></personal-picture>`
 
             let data = document.querySelector('#personal-data');
             data.innerHTML = `<personal-data job="` + res.job + `"
