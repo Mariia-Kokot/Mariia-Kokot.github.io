@@ -19,5 +19,7 @@ function fetchSchool(lang) {
                 let end = elt.end == null ? '' : 'end="' + elt.end + '"'
                 history.innerHTML += `<work-item job="` + elt.name + `" company="` + elt.school + `" begin="` + elt.begin + `" ` + end + `></work-item>`
             })
+            toggleDarkForShadow(history)
+            toggleDarkForShadow(school)
         })
 }

@@ -20,7 +20,6 @@
     <script src="script/component/components.js"></script>
     <script src="script/component/it-components.js"></script>
     <script src="script/component/personal-components.js"></script>
-    <script src="script/component/project-components.js"></script>
     <script src="script/component/header-components.js"></script>
 
     <style>
@@ -32,12 +31,16 @@
 <div id="main"></div>
 </body>
 <script>
-    if (/^fr\b/.test(navigator.language)) {
-        loadLang("fr")
-    } else if (/^ru\b/.test(navigator.language)) {
-        loadLang("ru")
+    if (typeof getCookie('lang') === 'undefined') {
+        if (/^fr\b/.test(navigator.language)) {
+            loadLang("fr")
+        } else if (/^ru\b/.test(navigator.language)) {
+            loadLang("ru")
+        } else {
+            loadLang("en")
+        }
     } else {
-        loadLang("en")
+        loadLang(getCookie('lang'))
     }
 </script>
 </html>

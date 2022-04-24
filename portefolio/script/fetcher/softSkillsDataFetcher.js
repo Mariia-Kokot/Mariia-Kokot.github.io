@@ -12,5 +12,6 @@ function fetchSoftSkills(lang) {
             res.values.forEach(elt => {
                 skills.innerHTML += `<social-skill name="` + elt + `"></social-skill>`
             })
+            toggleDarkForShadow(skills)
         })
 }

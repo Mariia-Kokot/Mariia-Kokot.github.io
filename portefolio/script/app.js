@@ -5,6 +5,22 @@ function toggleDark() {
     document.querySelectorAll(".w3-light-grey").forEach((element) => {
         element.classList.toggle("w3-dark-grey")
     })
+    if (typeof getCookie("shadow") !== "undefined" && getCookie("shadow") === "true") {
+        addCookie("shadow", "false")
+    } else {
+        addCookie("shadow", "true")
+    }
+}
+
+function toggleDarkForShadow(shadow) {
+    if (typeof getCookie("shadow") !== "undefined" && getCookie("shadow") === "true") {
+        shadow.querySelectorAll(".w3-white").forEach((element) => {
+            element.classList.toggle("w3-black")
+        })
+        shadow.querySelectorAll(".w3-light-grey").forEach((element) => {
+            element.classList.toggle("w3-dark-grey")
+        })
+    }
 }
 
 function loadLang(lang) {
@@ -15,6 +31,7 @@ function loadLang(lang) {
         })
         .then(data => {
             document.querySelector("#main").innerHTML = data;
+            toggleDarkForShadow(document)
             fetchPersonalData(lang)
             fetchLanguage(lang)
             fetchSoftSkills(lang)
@@ -26,10 +43,9 @@ function loadLang(lang) {
 
 
 /**
- * Get the value of a cookie
- * Source: https://gist.github.com/wpsmith/6cf23551dd140fb72ae7
+ * add the value of a cookie
  * @param  {String} name  The name of the cookie
- * @return {String}       The cookie value
+ * @param  {String} value The cookie value
  */
 function addCookie(name, value) {
     document.cookie = `${name}=${value};`;
@@ -37,7 +53,6 @@ function addCookie(name, value) {
 
 /**
  * Get the value of a cookie
- * Source: https://gist.github.com/wpsmith/6cf23551dd140fb72ae7
  * @param  {String} name  The name of the cookie
  * @return {String}       The cookie value
  */

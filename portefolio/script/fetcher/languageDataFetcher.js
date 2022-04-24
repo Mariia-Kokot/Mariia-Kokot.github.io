@@ -12,5 +12,6 @@ function fetchLanguage(lang) {
             res.value.forEach(elt => {
                 language.innerHTML += `<language-skill img="` + elt.key + `" lang="` + elt.lang[lang] + `" percent="` + elt.percent + `"></language-skill>`
             })
+            toggleDarkForShadow(language)
         })
 }

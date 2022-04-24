@@ -17,5 +17,6 @@ function fetchPersonalData(lang) {
                                            mail="mariia.kokot.pro@gmail.com"
                                            tel="+33 6.22.11.31.75"
                                            linkedin="mariia-kokot-951361189"></personal-data>`
+            toggleDarkForShadow(data)
         })
 }

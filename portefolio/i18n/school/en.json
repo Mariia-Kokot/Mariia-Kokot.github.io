@@ -1,20 +1,20 @@
 {
-  "name": "Trainings",
+  "name": "Education",
   "values": [
     {
-      "name": "Master Bilingual-Biculture (Russian English translation)",
+      "name": "Master's degree in Russian and English translation (Bilingual-Biculture)",
       "school": "Université de Lorraine",
       "begin": "2020",
       "end": null
     },
     {
-      "name": "Master slavic study (russian)",
+      "name": "Master's degree in Slavic studies (Russian language)",
       "school": "Université de Lorraine",
       "begin": "2018",
       "end": "2020"
     },
     {
-      "name": "Bachelor in english translation",
+      "name": "Bachelor's degree in English translation",
       "school": "National Agrarian University (Ukraine)",
       "begin": "2013",
       "end": "2017"

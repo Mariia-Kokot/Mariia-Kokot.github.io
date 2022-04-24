@@ -1,5 +1,5 @@
 {
-  "name": "Professional experience",
+  "name": "Experience",
   "values": [
     {
       "name": "Russian tutor",
@@ -16,18 +16,18 @@
       "begin": "Sept 2021",
       "end": "Oct. 2021",
       "activity" : [
-        "Translation of an application in the field of AI"
+        "Translation of an app in the field of AI"
       ]
     },
     {
-      "name": "Receptionist",
+      "name": "Reception agent",
       "work": "Université de Lorraine",
       "begin": "Sept 2021",
       "end": "Sept 2021",
       "activity" : [
-        "Information workshop",
+        "Host a workshop",
         "Campus tour",
-        "Orientation of students"
+        "Guiding students"
       ]
     },
     {
@@ -36,18 +36,18 @@
       "begin": "Oct. 2020",
       "end": "Dec. 2020",
       "activity" : [
-        "Introduction to Russian culture and language in a primary school",
-        "Learning basic words through games and Russian songs",
-        "Presentation of Russian culture using slideshow"
+        "Introduction to the Russian culture and language in a primary school",
+        "Teaching basic words through games and Russian songs",
+        "Presentation of Russian culture via Powerpoint"
       ]
     },
     {
       "name": "Private lessons of Russian and English",
-      "work": "Independent",
+      "work": "Freelance",
       "begin": "Sept. 2013",
       "end": "Juil. 2018",
       "activity" : [
-        "Oral and written expression (phonetics and grammar)"
+        "Spoken and written expression (phonetics and grammar)"
       ]
     },
     {

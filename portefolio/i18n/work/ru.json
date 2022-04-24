@@ -1,40 +1,40 @@
 {
-  "name": "Профессиональный опыт",
+  "name": "Опыт работы",
   "values": [
     {
-      "name": "Russian tutor",
-      "work": "Université de Lorraine",
-      "begin": "Sept 2021",
+      "name": "Преподаватель русского языка ",
+      "work": "Университет Лотарингии",
+      "begin": "Сен. 2021",
       "end": null,
       "activity" : [
         "Teaching Russian (written and oral)"
       ]
     },
     {
-      "name": "Technical translator",
+      "name": "Технический переводчик",
       "work": "Datascope",
-      "begin": "Sept 2021",
-      "end": "Oct. 2021",
+      "begin": "Сен. 2021",
+      "end": "Окт.. 2021",
       "activity" : [
-        "Translation of an application in the field of AI"
+        "Перевод приложения в области искусственного интеллекта"
       ]
     },
     {
-      "name": "Receptionist",
-      "work": "Université de Lorraine",
-      "begin": "Sept 2021",
-      "end": "Sept 2021",
+      "name": "Приём посетителей",
+      "work": "Университет Лотарингии",
+      "begin": "Сен. 2021",
+      "end": "Сен. 2021",
       "activity" : [
-        "Information workshop",
-        "Campus tour",
-        "Orientation of students"
+        "Проведение семинара",
+        "Тур по кампусу",
+        "Направление студентов"
       ]
     },
     {
-      "name": "Volunteer teacher for children under 6",
+      "name": "Волонтер-преподаватель для детей до 6 лет",
       "work": "Novis Education & co.",
-      "begin": "Oct. 2020",
-      "end": "Dec. 2020",
+      "begin": "Окт.. 2020",
+      "end": "Дек. 2020",
       "activity" : [
         "Introduction to Russian culture and language in a primary school",
         "Learning basic words through games and Russian songs",
@@ -42,31 +42,31 @@
       ]
     },
     {
-      "name": "Private lessons of Russian and English",
-      "work": "Independent",
-      "begin": "Sept. 2013",
-      "end": "Juil. 2018",
+      "name": "Частные уроки русского и английского",
+      "work": "Фриланс",
+      "begin": "Сен. 2013",
+      "end": "Июл. 2018",
       "activity" : [
-        "Oral and written expression (phonetics and grammar)"
+        " Выражения в устной и письменной форме (фонетика и грамматика )"
       ]
     },
     {
-      "name": "Teaching assistant internship",
-      "work": "Nechyi Levitskyi college",
-      "begin": "Jun. 2016",
-      "end": "Aug. 2016",
+      "name": "Помощник преподавателя (стажировка)",
+      "work": "Богуславський гуманитарный колледж имени  И.С. Нечуя-Левицкого",
+      "begin": "Янв. 2016",
+      "end": "Авг. 2016",
       "activity" : [
-        "Teaching English (tutored)",
-        "Translation of literary texts from Ukrainian into English"
+        "Преподавание английского языка ",
+        "Перевод литературных текстов с украинского языка на английский"
       ]
     },
     {
-      "name": "Technical translator internship",
-      "work": "National Agrarian University (Ukraine)",
-      "begin": "Jun. 2014",
-      "end": "Jul. 2014",
+      "name": "Технический переводчик (стажировка)",
+      "work": "Белоцерковский национальный аграрный университет (Украина)",
+      "begin": "Янв. 2014",
+      "end": "Июл. 2014",
       "activity" : [
-        "Translation of technical texts from English into Ukrainian"
+        "Перевод технических текстов с английского языка на украинский"
       ]
     }
   ]

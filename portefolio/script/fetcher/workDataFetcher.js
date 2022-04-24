@@ -28,5 +28,7 @@ function fetchWork(lang) {
                 }(elt.activity)
                 history.innerHTML += `<work-item job="` + elt.name + `" company="` + elt.work + `" begin="` + elt.begin + `" ` + end + `>` + content + `</work-item>`
             })
+            toggleDarkForShadow(work)
+            toggleDarkForShadow(history)
         })
 }

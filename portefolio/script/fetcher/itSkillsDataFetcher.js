@@ -9,5 +9,6 @@ function fetchITSkills(lang) {
         .then(res => {
             let it = document.querySelector('#it-skills');
             it.innerHTML = `<all-it-skill>` + res.info + `</all-it-skill>`
+            toggleDarkForShadow(it)
         })
 }
