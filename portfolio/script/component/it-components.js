@@ -15,8 +15,8 @@ class ITsSkills extends HTMLElement {
         this.shadow = this.attachShadow({mode: 'open'})
         this.shadow.innerHTML = `
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-      <script src="./component/components.js"></script>
-      <script src="./component/it-components.js"></script>
+      <script src="/portfolio/script/component/components.js"></script>
+      <script src="/portfolio/script/component/it-components.js"></script>
       <skill-title logo="desktop"><slot></slot></skill-title>
       <it-skill tech="Office 365" percent="80"></it-skill>
       <it-skill tech="Trello" percent="60"></it-skill>

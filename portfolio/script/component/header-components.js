@@ -8,9 +8,13 @@ class HeaderComponent extends HTMLElement {
                 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                 <style>
-                  .logo {
+                  #logo {
                     filter: brightness(90%);
                     opacity: 1;
+                    height: 50px;
+                  }
+                  #language-chooser-img {
+                    height: 30px;
                   }
                   .flag {
                     display: list-item;
@@ -37,14 +41,14 @@ class HeaderComponent extends HTMLElement {
                 <header class="w3-container w3-teal w3-center w3-margin-bottom">
                   <div class="w3-display-container">
                     <div class="w3-display-left">
-                      <a href="../"><img src="../resources/Mariia_Logo.png" height="50" alt="logo" class="logo w3-display-left"/></a>
+                      <a href="../"><img id="logo" src="/resources/Mariia_Logo.png" alt="logo" class="w3-display-left"/></a>
                     </div>
                     <div class="w3-display-right" style="right: 110px">
                       <div onclick="toggleDark();" class="w3-display-left darker fa fa-lightbulb-o fa-fw w3-text-black"></div>
                     </div>
                     <div class="w3-display-right">
                       <div class="w3-dropdown-hover">
-                        <button class="w3-btn w3-teal"><img src="img/translate.png" alt="choose a language" height="30"></button>
+                        <button class="w3-btn w3-teal"><img id="language-chooser-img" src="/portfolio/img/translate.png" alt="choose a language"></button>
                         <div id="language-chooser" class="w3-dropdown-content w3-border w3-bar-block" style="right: 0"></div>
                       </div>  
                     </div>
